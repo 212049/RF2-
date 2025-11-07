@@ -94,8 +94,8 @@ cd X:\  # X是SD卡盘符
 **重组后 / After:**
 ```
 /LOGS/
-  RFDB2.1/
-    RFLog_20250115.csv  (只包含RFDB2.1)
+  MyHeli1/
+    RFLog_20250115.csv  (只包含MyHeli1)
     RFLog_20250114.csv
   MyHeli2/
     RFLog_20250115.csv  (只包含MyHeli2)
@@ -110,7 +110,6 @@ cd X:\  # X是SD卡盘符
 ✅ 将日志按机型分类存放  
 ✅ 显示详细的处理进度和统计  
 ✅ 自动删除原始混合文件  
-✅ 支持中文机型名称  
 
 ---
 
@@ -432,6 +431,7 @@ local teleItemName = {
 ---
 
 *说明书版本：2.1 | 最后更新：2025-01*
+
 
 
 
