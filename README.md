@@ -27,8 +27,6 @@
 
 ## 📥 安装步骤 / Installation 
 
-### 第一步：复制脚本文件 / Step 1: Copy Script
-
 **中文：**
 1. 将 `rf2t.lua` 复制到遥控器SD卡：`/SCRIPTS/TELEMETRY/rf2t.lua`
 2. 在遥控器中：机型设置 → 显示 → 屏幕1 → 选择 `rf2t.lua`
@@ -436,5 +434,6 @@ local teleItemName = {
 ---
 
 *说明书版本：2.1 | 最后更新：2025-01*
+
 
 
