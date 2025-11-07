@@ -25,7 +25,7 @@
 
 ---
 
-## 📥 安装步骤 / Installation (3步完成)
+## 📥 安装步骤 / Installation 
 
 ### 第一步：复制脚本文件 / Step 1: Copy Script
 
@@ -38,35 +38,6 @@
 1. Copy `rf2t.lua` to radio SD card: `/SCRIPTS/TELEMETRY/rf2t.lua`
 2. In radio: Model Setup → Display → Screen 1 → Select `rf2t.lua`
 3. Done! Long press PAGE to view
-
-### 第二步：配置传感器名称 / Step 2: Configure Sensors
-
-**必需传感器 / Required Sensors:**
-- `Vbat` - 电池电压 / Battery Voltage
-- `Curr` - 电流 / Current  
-- `Hspd` - 主旋翼转速 / Head Speed (RPM)
-- `Capa` - 消耗容量 / Capacity Used
-- `Bat%` - 电池百分比 / Battery Percentage
-- `Tesc` - 电调温度 / ESC Temperature
-- `1RSS` - 信号强度 / Signal Strength
-- `Vbec` - BEC电压 / BEC Voltage
-- `GOV` - 调速器状态 / Governor State
-
-**提示：** 如果传感器名称不同，需要修改脚本第38行的 `teleItemName` 数组。
-
-### 第三步：首次运行 / Step 3: First Run
-
-**中文：**
-- 打开接收机，长按PAGE键查看遥测屏幕
-- 首次运行会自动扫描日志文件（需要1-2分钟）
-- 扫描完成后会自动创建统计文件 `/LOGS/RFStats.csv`
-
-**English:**
-- Power on receiver, long press PAGE to view telemetry
-- First run will scan log files automatically (1-2 minutes)
-- Statistics file `/LOGS/RFStats.csv` will be created
-
----
 
 ## ⚠️ 重要：日志重组工具 / IMPORTANT: Log Reorganization Tool
 
@@ -465,4 +436,5 @@ local teleItemName = {
 ---
 
 *说明书版本：2.1 | 最后更新：2025-01*
+
 
